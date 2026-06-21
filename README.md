@@ -32,3 +32,13 @@ A simple tic-tac-toe game built with Python and Flask and played in the browser.
 ## GitHub
 
 Repository: https://github.com/Mr-Nauman/tictoc
+
+## Deploy
+
+This is a standard Flask app, so it can be deployed on platforms like Render, Railway, or PythonAnywhere.
+
+Typical production setup:
+
+1. Set the start command to run `python app.py` or, for production, a WSGI entry point.
+2. Make sure `requirements.txt` is installed on the platform.
+3. Add a `PORT`-aware server if your host requires it.
